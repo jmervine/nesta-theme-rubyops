@@ -1,4 +1,10 @@
-postal3 Nesta theme
-===============
+RubyOps.net Nesta theme
+=======================
 
-postal3 is a theme for Nesta, designed by Neil Gardiner of NGStudio.
+Started with [postal3](https://github.com/gma/nesta-theme-postal3), designed by Neil Gardiner of NGStudio.
+
+## TODO:
+
+1. Make my own.
+
+
