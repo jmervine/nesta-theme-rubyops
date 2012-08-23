@@ -1,4 +1,4 @@
-$primary: red
+$primary: #8B0000
 $secondary: #333
 $body: $secondary + #444
 $pre_background: $primary + #b3986c
@@ -70,17 +70,20 @@ a
 // Layout and page content
 
 body
-  background: white url(/postal3/images/body-bg.png) repeat-x
+  background: whitesmoke url(/rubyops/images/body-bg.png) repeat-x
 
 #container
   margin: 0 1em 2em 1em
-  min-width: 54em
+  //min-width: 54em
+  min-width: 1200px
 
 #wrapper
-  width: 52em
+  //width: 52em 
+  width: 950px
   position: relative
-  left: 50%
-  margin-left: -26em
+  left: 10%
+  //left: 50%
+  //margin-left: -26em
 
 #header
   margin-bottom: 2.3em
@@ -121,15 +124,16 @@ body
       font-weight: normal
       letter-spacing: 0
 
-#content
+#content, #admin_content
   float: left
-  width: 37.5em
+  //width: 37.5em
+  width: 750px
   padding-top: 1.5em
 
 #sidebar
-  width: 12em
+  //width: 12em
+  width: 200px
   float: right
-  
   padding-top: 1.5em
 
   h2
@@ -171,7 +175,7 @@ div.feed
 
   a
     padding: 6px 0 6px 36px
-    background: url(/postal3/images/feed-icon.png) no-repeat left center
+    background: url(/rubyops/images/feed-icon.png) no-repeat left center
 
 #content
   ul.breadcrumb
@@ -275,11 +279,12 @@ div.feed
   div.categories,
   p.social
     margin: 1.5em 0
-    font-family: $sans_serif
-    font-size: 85%
-    font-weight: bold
+    //font-family: $sans_serif
+    //font-size: 85%
+    //font-weight: bold
     
     color: $secondary
+
 
     a
       margin-left: 0.4em
@@ -324,3 +329,8 @@ div.feed
     font-size: 70%
 
     color: $body
+
+p.google_ad
+  margin-top: 50px
+  margin-bottom: 50px
+
