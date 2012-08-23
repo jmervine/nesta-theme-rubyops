@@ -1,3 +1,6 @@
+-#- Adding Google Ad before Comments.
+%p.google_ad= google_ad
+
 - if short_name = Nesta::Config.disqus_short_name
   #disqus_thread
     - if Sinatra::Application.environment == :development
