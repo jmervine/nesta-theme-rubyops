@@ -1,3 +1,17 @@
-- if ! @menu_items.empty?
-  %h2 Articles by category
-  - display_menu(@menu_items, :class => "menu")
+%nav.categories
+  - if ! @menu_items.empty?
+    %h1 
+      Featured Categories
+    - display_menu(@menu_items, :class => "menu")
+
+  %h1 Joshua P. Mervine
+
+  %a{:href=>"http://linkedin.com/in/mervinej"} LinkedIn
+  %br
+  %a{:href=>"http://twitter.com/mervinej"} Twitter
+  %br
+  %a{:href=>"https://rubygems.org/profiles/51298"} Gems
+  %br
+  %a{:href=>"http://github.com/jmervine"} Github/jmervine
+  %br
+  %a{:href=>"http://github.com/rubyops"} Github/rubyops

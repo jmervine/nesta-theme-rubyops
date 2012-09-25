@@ -1,16 +1,12 @@
-#header
-  %p#logo
-    %a{ :href => "/" }= @heading
-    %small= no_widow @subtitle
-
-= haml :sidebar, :layout => false
+%nav.breadcrumb
+  %a(href="#{url('/')}") Home
 
 #content
-  .breadcrumb
-    %a{ :href => "/" } Home
+  %section(role="main")
+    %h1 Sorry, something went wrong
 
-  %h1 Sorry, something went wrong
+    %p
+      An error occurred whilst we were trying to serve your page. Please
+      bear with us, or try another page.
 
-  %p
-    An error occurred whilst we were trying to serve your page. Please bear
-    with us, or in the mean time, try another page.
+= haml :sidebar, :layout => false
