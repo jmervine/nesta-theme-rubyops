@@ -1,10 +1,17 @@
-RubyOps.net Nesta theme
-=======================
+Rubyops Nesta theme
+===================
 
-Started with [postal3](https://github.com/gma/nesta-theme-postal3), designed by Neil Gardiner of NGStudio.
+rubyops is a theme for Nesta, a [Ruby CMS](nesta), designed by
+using the default theme as a template.
 
-## TODO:
+It includes support for [my currenlty active plugins](http://www.rubyops.net/nesta/plugins) and [the Ultraviolet syntax highlighter](http://ultraviolet.rubyforge.org/).
 
-1. Make my own.
+It can be installed using the following inside your nesta project:
+
+    $ nesta theme:install https://github.com/jmervine/nesta-theme-rubyops
+    $ nesta theme:enable rubyops
+    
+
+[nesta]: http://nestacms.com
 
 
